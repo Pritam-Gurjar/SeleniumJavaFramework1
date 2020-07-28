@@ -1,14 +1,11 @@
 
 <suite name="Suite">
-
-<listners>
-
+	<listners>
 		<listner class-name="listner.TestNGListners"></listner>
-
-	</listners> 
-  <test thread-count="5" name="Test">
-    <packages>
-      <package name="listners"/>
-    </packages>
-  </test> 
+	</listners>
+	<test thread-count="5" name="Test">
+		<packages>
+			<package name="listners" />
+		</packages>
+	</test>
 </suite> 

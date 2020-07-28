@@ -1,5 +1,6 @@
 package listners;
 
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -20,5 +21,20 @@ public class TestNGListners implements ITestListener
 	public void onFinish(ITestResult context) 
 	{
 		System.out.println("Test is complited : "+context.getName());
+	}
+	public void onTestStart(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+	}
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		
 	}
 }
